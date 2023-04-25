@@ -1,66 +1,85 @@
+  
 <!DOCTYPE html>
+
 <html lang="pt-BR">
-<!--cabeçalho-->
-<!---tag head passa informação para o navegador--->
+
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> Barra do Sotero</title>
 
-	<!--Aqui é a ligagação do arqivo externo CSS com o HTML outra maneira de modificar a página e pode ser mudificar
-		várias páginas com o mesmo estilo só usando esse arquivo-->
-	<!---link a rel das folhas de estilos stylesheet e a referencia com o style.css--->
+	<meta charset="UTF-8">
+	<!-- saber a largura do dispositivo-->
+	<meta  name="viewport" content="width=device-width">
+	<title>Barbearia Alura</title>
+	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
-
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
-<!---corpo--->
+
+
 <body>
-	<!---cabeçalho da página--->
+
 	<header>
-		<h1 class="titulo-principal">Barra do Sotero</h1>
-	</header>
-	<img id="barra" src="barra.jpg" alt="Barra do Sotero" width="100%" height="200">
+			<div class="caixa">
+			<h1><img src="logo.png"></h1>
+            <nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="produtos.html">Produtos</a></li>
+				<li><a href="contatos.html">Contatos</a></li>
+			</ul>
+		</nav>
+	</div>
+		</header>
+		<img class="banner" src="banner.jpg">
 
-<!--alinhar o título ao centro,esse tipo de alinhamento é inline,ou seja, 
-	só alinha aquela linha ou elemento que foi criado --->
-	<!---background muda a cor de fundo--->
-		<div>
-		<h2 class="titulo-centralizado">História de Barra do Sotero</h2>
-		<h2 class="fotos"><a href="fotos.html">Fotos</a></h2>
+			<main>
+					<section class="principal">
 
-		<!---quando tem 2 propriedade para não haver conflito coloca-se após o ;--->
-		<p>
-		Por volta do ano de 1850, <strong>Sotero Ribeiro do Nascimento, que era filho de Manoel Francisco do Nascimento, residente em Malhada de Pedras, Ipueiras-CE</strong>, decide procurar ao longo do vasto terreno que pertencia a seu pai, um lugar para se instalar e ali constituir família. <strong>Manoel Francisco</strong> era dono de um grande terreno que compreendia toda esta região de Barra do Sotero. <strong> <em>(Barra = Foz, desembocadura)</em>, daí o nome: Barra, e Sotero devido a seu nome</strong>.
-		<p> Na época Sotero Ribeiro era solteiro e tinha o desejo de situar uma fazenda nas terras de seu pai e escolheu o local onde se encontravam os <strong>Rios Inhuçu (na época chamado de Rio Macambira) e Piaus</strong>, cuja nascente é no município de <strong>Guaraciaba do Norte</strong>.</p>
-		<p> O motivo da escolha do local para morar foi por achar o encontro dos rios um lugar propício à criação de gado devido à abundância de água.</p>
-		 <p>Fundou então a fazenda Sotero e deu início a criação de gado. Casou-se e fixou residência no local. Seu pai,<strong> Manoel Francisco, era um senhor de posses</strong>, tendo chegado ao posto de <em>Tenente</em>. <strong>Era filho de Narcízio Ribeiro, e neto de Manoel José Ribeiro, que veio de Portugal</strong>. Sotero Ribeiro veio a falecer no dia 11 de novembro de 1911. Antes da construção da igreja.</p>
+						<h2 class="titulo-principal"style="text-align:center">Sobre a Barbearia Alura</h2>
+						<img class="utensilios" src="utensilios.jpg" alt="Utensilios de Barbeiro">
+						<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-		<p><strong>A fundação da igreja de Barra do Sotero</strong> deu-se a partir da solicitação do terreno para construção da igreja, feito pelo Monsenhor Antonino Cordeiro Soares em março de <strong>1955</strong>, na época pároco de Guaraciaba do Norte. Neste mesmo ano no dia 24 de junho foi celebrada a primeira missa em Barra do Sotero presidida pelo Monsenhor Antonino. Na ocasião o <strong>Senhor José Eugênio</strong> fez doação do terreno correspondente a (100 metros em quadra) e manifestou desejo de<strong> São José </strong>ser padroeiro desta comunidade, a qual foi aceita por todos os presentes.</p>
-		<p>Desde então a comunidade se mobilizou para a construção da igreja. Como primeiro passo foi feito uma latada no lugar da atual igreja, onde <strong>o Padre João Batista Araújo</strong> celebrou sua primeira missa em nossa comunidade no dia 24 de abril 1957.</p>
-		<p>Em 14 de maio de 1964 recebeu-se a visita de Frei Bruno em nossa comunidade que também celebrou conosco e impulsionou os fiéis a constante oração.</p>
-		<p>Padre João Batista de Araújo, na época pároco de Carnaubal, conduziu a imagem de São José em uma procissão juntamente com os fiéis, a qual entronizou na igreja no dia 12 de agosto de 1965 e, em uma solene missa realizou o batizado de São José como padroeiro de Barra do Sotero.</p>
-		<p>Em dia 16 de março de 1966, nos festejos de São José, recebemos Frei Inocêncio que também presidiu a Celebração Eucarística.</p>
-		<p>Em 08 de novembro de 1971, nossa comunidade recebeu a visita ilustre de<strong> Dom Timóteo</strong>, na época bispo da Diocese de Tianguá, que celebrou pela primeira vez em Barra do Sotero.</p>
-		<p>Dom Timóteo retorna a nossa comunidade no dia 03 de agosto de 1974, e em uma solene missa às 9hs da manhã, realiza o batizado da igreja de São José, marco inicial para a organização pastoral do setor.</p>
-		<p>Em julho de 1974 a Senhora Francisca Martins Bezerra, em virtude de uma graça alcançada pela intercessão de Nossa Senhora das Graças, faz a doação da imagem de Nossa das Graças para a igreja de São José, onde em procissão é levada à igreja e entronizada pelo  Pároco da Paróquia de Carnaubal, dando início a devoção a Maria com o título de Nossa Senhora das Graça e ficando definida a partir dessa ocasião a festa de Nossa Senhora das Graças no mês de julho.</p>
-		<p>Em 1985, nossa comunidade São José passou a pertencer a Paróquia Nossa Senhora das Dores de Croatá, tendo como pároco, na época, o Padre Luiz Gonzaga Gomes Furtado. E continuou a celebrar com muito fervor e devoção a festa de São José 09 à 19 março e o Momento Mariano em honra a Nossa Senhora das Graças de 21 à 31 de julho.</p>
-		<p>O Setor São José tem como patrimônio: a igreja, a casa paroquial e um salão comunitário. Já adquiriu todo seu material litúrgico e dia 17 de setembro de 2014 aconteceu a entronização do Santíssimo Sacramento, implantando a capela do Santíssimo tendo como atual pároco o Padre Antonio Kelton Oliveira Marques.</p>
-		<p>As informações acima foram coletadas no documento HISTÓRIA DA FUNDAÇÃO DA IGREJA DE BARRA DO SOTERO de 09/10/2015,  documento este de autoria da Professora Ana Lúcia Martins em parceria comigo, Maria Janaína e, feito através de registros e escritos do Senhor Angelo Ribeiro Sales (IN MEMORIAN).</p>
+<link href="https://fonts.googleapis.com/css2? family=Montserrat:wght@200&display=swap" rel="stylesheet">
+						<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
+						<p id="marcacao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
-		 <a href="https://www.facebook.com/profile.php?id=100006097365092&refid=18&__tn__=%2As-R"><em>Texto extraído da página</em></a>
-		</p>
-		</div>
-		<h3 class="titulo-centralizado">Barra do Sotero está localizada</h3>
+						<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+					</section>
+					<section class="mapa">
+						<h3 class="titulo-principal">Nosso Estabelecimento</h3>
+					<p>Nosso Estabelecimento esta localizado em Santa Tereza Próximo ao Ginásio Olímpico</p>
 
-		<div>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15913.543366108284!2d-40.955751479028116!3d-4.338454330168027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x794f56c7a02d0ab%3A0xcdb4aad5bd3eea3e!2sBarra%20do%20Sotero%2C%20Croat%C3%A1%20-%20CE%2C%2062390-000!5e0!3m2!1spt-BR!2sbr!4v1681774828948!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-		</div>
-	<footer>
-		<!---imagem de roda- pé--->
-		<img src="igreja.jpg">
-		<p class="copyright">&copy;copyright Barra do Sotero</p>
-	</footer>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.5020986013274!2d-43.20185882558116!3d-22.931728638761243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fbc08f10873%3A0xb10065496bc697db!2sRua%20Marcel%20Proust%2C%209%20-%20Santa%20Teresa%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020251-130!5e0!3m2!1spt-BR!2sbr!4v1681396173567!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			
+				</section>
+				<section class ="beneficios">
+			<h3 class="titulo-principal">Beneficios</h3>
+			<div class="conteúdo-beneficios">
+			<ul class="lista-beneficios">
+				<li class = "itens" >Atendimento ao Cliente </li>
+				<li class = "itens" >Espaço diferenciado </li>
+				<li class = "itens" >Localização </li>
+				<li class = "itens" >Profissionais Qualificados </li> 
+				<li class="itens">Pontualidade</li>
+                <li class="itens">Limpeza</li>
+			</ul><img src="beneficios.jpg" class="imagembeneficios">
+			</div>
+			<div class="video">
+				<iframe width="100%" height="315" src="https://www.youtube.com/embed/f9hozm9V7qo?start=147" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+			</div>
+		</section>
+	</main>
+		<footer>
+				<img src="logo-branco.png">
+				<p class="copyright">&copy; Copyrights Barbearia Alura</p>
+			</footer>
 </body>
 
 </html>
