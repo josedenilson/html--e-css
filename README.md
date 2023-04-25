@@ -1,2 +1,2 @@
 # html  e css
- Projetos de BackEnd em html e CSS
+ Projeto Barbearia Alura do curso em html e CSS.
